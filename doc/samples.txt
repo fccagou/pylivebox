@@ -1,0 +1,33 @@
+
+# POST /authenticate?username=admin&password=xxx HTTP/1.1
+# Host: livebox
+# User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:31.0) Gecko/20100101 Firefox/31.0
+# Accept: text/javascript, text/html, application/xml, text/xml, */*
+# Accept-Language: fr,fr-fr;q=0.8,en-us;q=0.5,en;q=0.3
+# Accept-Encoding: gzip, deflate
+# DNT: 1
+# X-Requested-With: XMLHttpRequest
+# X-Prototype-Version: 1.7
+# Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+# Referer: http://livebox/
+# Content-Length: 37
+# Cookie: 94506a2d/zoom-accessibility=small; 94506a2d/contrast-accessibility=contrast1; 94506a2d/language=fr; 94506a2d/possibleLanguages=en,fr; 94506a2d/WanInterfaceConfig=DSL
+# Connection: keep-alive
+# Pragma: no-cache
+# Cache-Control: no-cache
+# 
+# username=admin&password=XXX
+
+# HTTP/1.1 200 OK
+# Set-Cookie: 94506a2d/sessid=EEwdEJL+FKMoFwF4Wjn1LOp+; path=/
+# Cache-Control: no-cache
+# Pragma: no-cache
+# TE: chunked
+# Transfer-Encoding: chunked
+# Content-Type: application/json
+# 
+# 64
+# 
+# {"status":0,"data":{"contextID":"HnMjMmoQDUXtdwBF2J6YCwY80wGCNQZi2zqBLEhcm3vqpUTesM2U7PR7cmyN1lUR"}}
+# 
+# 0
