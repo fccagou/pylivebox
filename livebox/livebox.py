@@ -66,7 +66,7 @@ class Livebox:
 
 			
 		req = urllib2.Request(url, params)
-		req.add_header('Cookies', self._cookies)
+		req.add_header('Cookie', self._cookies)
 		req.add_header('X-Context', self._contextID)
 		req.add_header('X-Sah-Request-Type', 'idle')
 		req.add_header('Content-Type', content_type)
